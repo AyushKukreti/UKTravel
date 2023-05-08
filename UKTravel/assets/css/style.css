@@ -1,0 +1,893 @@
+/***********Main Structure Start***********/
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body, html {
+  height: 100%;
+  font-family: 'Verdana', sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+    bottom: 0
+}
+
+/***********Main structure end Start***********/
+/***********Navbar Start***********/
+.top{
+  background-image: url("../images/H1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;  
+  overflow:hidden;
+}
+
+.top-offer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.top-color{
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  position: fixed;
+  width:100%;
+  opacity:.65;
+  font-size: 25px;
+}
+
+ul.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+ul.navigation li{
+  float: left;
+}
+
+ul.navigation li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 13px 25px;
+  text-decoration: none;
+}
+
+ul.navigation li.logo{
+  float: right;
+}
+
+.logo{
+  font-size:30px;
+  font-family: 'Amatic SC', cursive;
+}
+
+.nav{
+  padding-top:5px;
+}
+/***********Navbar end***********/
+.middle{
+  position: fixed;
+  top: 40%;
+  left: 10%;
+  border-top:1px solid lightgrey; 
+}
+
+.middle h1{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  opacity:.65;
+  letter-spacing:8px;
+}
+
+.middle p{
+  color: white;
+  font-size: 15px;
+  line-height: 1.5em;
+  width: 590px;
+  opacity:.65;
+  letter-spacing:.5px;
+}
+
+.example{
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  background:none;
+  width: 200px;
+  color: rgba(0, 0, 0, 0.8);
+  background: white;
+  cursor: pointer;  
+  border-radius:1em;
+  text-align:center;
+}
+
+.example:hover{
+  opacity:.85;
+}
+form.example button:hover {
+  background:lightgrey;
+  border:2px solid lightgrey;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/***********Images Start***********/
+.collage {
+  display: flex; 
+  align-items: center;
+}
+
+.item {
+  padding: 0;
+  width: 100%;
+}
+/***********Images End***********/
+/***********Footer Start***********/
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    
+}
+
+.social-links li a i:hover {
+    background: yellow;
+}
+
+#footer-pages {
+    background-color: #808080;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    opacity: 0.65;
+    
+}
+#footer {
+    background-color:white;
+    color: #808080;
+    min-height: 120px;
+    margin: 0;
+    position: relative;
+    opacity: 0.65;
+    
+}
+
+
+#footer-contact-us-page{
+    background-color:white;
+    color: #808080;
+    min-height: 120px;
+    margin: 0;
+    position: relative;
+    opacity: 0.65;
+    padding-top: 5%
+    
+}
+#footer-details {
+    padding: 20px;
+}
+
+#footer-style{
+    justify-content: center;
+    width: 40px;
+    
+    margin: auto;
+    display: flex;}
+
+#footer-style-map{
+     margin-top:30px;
+}
+
+#footer-h5{
+     font-size: 2em;
+}
+.col-sm-4{
+    text-align:center;
+}
+/***********Footer End***********/
+/***********Buttons start***********/
+.button {
+    font-family: Verdana;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    margin-top:5%;
+    text-transform: none;
+  }
+
+  .button1 {
+  font-family: Verdana;
+    background-color: white;
+    color: black;
+    padding: 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    margin-top: 5%;
+    text-transform: none;
+    padding-right: 10%;
+    text-decoration: underline;
+  }
+/***********Buttons end***********/
+/***********List styling Start***********/
+
+
+.all-inclusive-list{
+    text-align: justify;
+    font-family: Verdana;
+    margin-bottom: 0;
+    margin-left:6%;
+    list-style: none;
+    font-size: 15px;
+	line-height: 1.5em;
+	color: #95a5a6;
+    
+}
+
+.list-extra-stuff{
+    margin-left:30px;
+}
+/***********List styling end***********/
+/***********Map start***********/
+#map {
+  height: 765px;
+  }
+
+/***********Map end***********/
+
+/***********Contact From styling start***********/
+#contact-us-section{
+    padding-top:15%;
+}
+.contact-from-header{
+    font-weight: bold;
+    margin-left: 15%;
+    font-size: 2em;
+    text-align: center;
+    
+}
+.contact-heading {
+    margin-left: 15%;
+    font-size: 3em;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+    width:150%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #1B9AAA;
+    font-size: 15px;
+}
+
+
+#contact-button{
+    
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    border-style: none;
+    font-size: 30px;
+    color:#808080;
+    background-color:white;
+    margin-top:0;
+    
+}
+
+
+#logo-vacay{
+    padding: 5%;
+    
+    list-style: none;
+}
+
+#fullname{
+    margin-bottom:2%;
+}
+#emailaddress{
+    margin-bottom:2%;
+}
+#phonenumber{
+    margin-bottom:2%;
+}
+#packetinformation
+{
+    margin-bottom:2%;
+}
+
+/***********Contact Form styling end***********/
+
+
+/***********Holiday page start***********/
+
+body{
+  background-color:white;
+}
+.container{
+  margin: 0 auto;
+}
+  .featured-trips{
+    font-family: Verdana;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 100px;
+    color: #288F91;
+  }
+.holiday-card{
+  background-color: #fff;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  min-height: 430px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.effect-1:hover{
+    transform: scale(1.02);
+    transform: translateY(-5px);
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+  }
+  .effect-1:hover .image{
+    background-size: 160%;
+    
+  }
+  .effect-1:hover .image:after{
+    opacity: 1;
+  }
+ 
+  .image{
+    height: 300px;
+    transition: 0.4s ease-in-out;
+    position: relative;
+    background-size: 100%;
+    background-position: center center;
+  }
+    .image1{
+    background-image: url("../images/T1.jpg");
+
+  }
+    .image2{
+    background-image: url("../images/T2.jpg");
+
+  }
+    .image3{
+    background-image: url("../images/T3.jpg");
+  }
+    .image4{
+    background-image: url("../images/T5.jpg");
+
+  }
+    .image5{
+    background-image: url("../images/T4.jpg");
+
+  }
+    .image6{
+    background-image: url("../images/T6.jpg");
+  }
+  .iconbar{
+    z-index: 100;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 3px;
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+  }
+  i{
+    padding: 0px 5px 
+  }
+  .primary-icon{
+    padding-right: 5px;
+    color:#1F73B4;
+    font-size: 32px;
+    
+  }
+  .other-icons{
+    color: #288F91;
+  }
+  .text-content{
+    padding: 5px 10px;
+  }
+  hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h4{
+    margin-top: 10px;
+    color:#1F73B4;
+    padding: 0;
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  h5{
+    align-self: flex-end;
+    font-family: Verdana;
+    font-weight: 700;
+    font-size: 16px;
+    color: #288F91;
+    
+  }
+  #card-margin{
+    margin-top:15px;
+}
+
+/***********Holiday page end***********/
+/***********Holiday pages main code start***********/
+
+
+body {
+	font-family: Verdana, sans-serif;
+}
+
+.background-img {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: 1;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+#card {
+	position: absolute;
+	width: 800px;
+	height: 700px;
+	top: 50%;
+	left: 50%;
+	margin-top: -350px;
+	margin-left: -400px;
+	background-color: #fff;
+	border-radius: 8px;
+	z-index: 3;
+}
+
+/***********Holiday pages main code end***********/
+/***********Holiday page Rishikesh start***********/
+#photo {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+
+#photo h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+#text {
+	font-family: 'Georgia', sans-serif;
+	width: 50%;
+	height: 100%;
+	float: right;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+}
+#text h1 {
+    font-family:Verdana;
+	font-size: 1.5em;
+	color: #000;
+	margin-bottom: 5%;
+	margin-left: 5%;
+	margin-top: 5%;
+    text-align:justify;
+    margin-right: 5%;
+}
+#text h3 {
+	font-size: 0.8em;
+	color: #3498db;
+	margin-bottom: 20px;
+	margin-left: 5%;
+}
+#text p {
+	font-size: 15px;
+	line-height: 1.5em;
+	color: #95a5a6;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;    
+    text-decoration: none;
+    text-align: justify;
+    font-family: Verdana;
+
+}
+#text img {
+	border-radius: 10px;
+	display: block;
+	margin: 0 auto 0 5%;
+}
+
+/***********Holiday page Rishikesh End***********/
+/***********Holiday page Kedarnath start***********/
+#photo-istria {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C5.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-istria h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-istria hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-istria {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Kedarnath end***********/
+/***********Holiday page Haridwar start***********/
+#photo-lucerne {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C2.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-lucerne h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 3.2em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-lucerne hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-lucerne {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 75%;
+	left: 12%;
+	word-spacing: 10px;
+}
+/***********Holiday page Haridwar end***********/
+/***********Holiday page  Nainital start***********/
+#photo-arles {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-arles h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 55%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-arles hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-arles {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 62%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Nainital End***********/
+/***********Holiday page Mussoorie start***********/
+#photo-corfu {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C4.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-corfu h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-corfu hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-corfu {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Mussoorie end***********/
+/***********Holiday page Mana start***********/
+#photo-florence {
+	height: 100%;
+	float:left;
+	width: 50%;
+	background-image: url('../images/C6.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 50% 50%;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px; 
+}
+
+#photo-florence h1 {
+    font-family:Verdana;
+	position: relative;
+	top: 65%;
+	font-size: 4em;
+	font-weight: 800;
+	color: #fff;
+    text-align: left;
+    margin-left:25px;
+}
+#photo-florence hr {
+	position: relative;
+	width: 80%;
+	top: 55%;
+	left: 10%;
+}
+.tags-florence {
+	font-size: 0.8em;
+	color: #fff;
+	position: relative;
+	top: 65%;
+	left: 10%;
+	word-spacing: 10px;
+}
+/***********Holiday page Mana end***********/
+
+.header-map{
+    font-weight: bold;
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 2%;
+    font-family: Verdana;
+    font-size: 3em;
+}
+
+
+/***********Media queries start***********/
+
+  
+  
+
+@media screen and (max-width: 767px) {
+ #text h1 {
+    font-family: Verdana;
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-align: center;
+   
+}
+ #card {
+    width: 100%;
+    height: 165%;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    border-radius: 8px;
+    position:initial; 
+    margin-top:auto;
+    margin-left:auto}
+
+#text {
+    font-family: 'Georgia', sans-serif;
+    width: 100%;
+    height: 100%;
+    float: right;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+ .logo{
+   font-size:20px;
+ }
+  
+ .nav{
+   padding:0;
+   font-size:15px;
+ }
+  
+ header{
+   position: fixed;
+   width:100%;
+ }
+  
+ .collage{
+   display: block;
+   padding-top: 5px;
+   align-items: center;
+ }
+
+ .top{
+   background-position:initial;
+ }
+  
+ .middle{
+   position: fixed;
+   top: 200px;
+   left: 5px;
+ }
+  
+ .middle h1{
+   font-size:30px;
+   padding-bottom:10px;
+ }
+  
+ .middle p{
+   width:300px;
+ }
+  
+ .example{
+   width:150px;
+ }
+  
+ .bottom{
+   margin-bottom:20px;
+    
+ }
+ .container {
+    padding-top: 15%;
+}
+.media-map{
+        padding-top: 30%;
+}
+#contact-us-section {
+    padding-top: 40%;
+   padding-right: 5%;}
+}
+/***********Media queries end***********/
